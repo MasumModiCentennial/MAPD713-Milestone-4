@@ -4,11 +4,11 @@
   "description": "Milestone 4 - Unit testing and Heroku deployment",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --exec babel-node -e js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Manoj-Manikantan/nodeJs/tree/master/MAPD713_Milestone3"
+    "url": "git+https://github.com/MasumModiCentennial/MAPD713-Milestone-4"
   },
   "keywords": [
     "REST",
