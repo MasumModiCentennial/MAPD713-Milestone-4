@@ -4,7 +4,7 @@
   "description": "Milestone 4 - Unit testing and Heroku deployment",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",

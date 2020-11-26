@@ -23,7 +23,7 @@ app.get('/', (req, res) =>
     res.send(`Node and server running on port ${PORT}`)
 )
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     require('log-timestamp')
     console.log(`Server is running on http://localhost:${PORT}/`)
     console.log("--------------- End Points -----------");
