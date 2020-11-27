@@ -4,6 +4,7 @@
   "description": "Milestone 4 - Unit testing and Heroku deployment",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && npm run build-babel",
     "start": "babel-node index.js"
   },
   "repository": {
