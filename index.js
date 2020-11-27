@@ -16,7 +16,6 @@ mongoose.connect('mongodb://localhost/patientDB1', {
 /* Body parser setup */
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
-
 routes(app)
 
 app.get('/', (req, res) =>
